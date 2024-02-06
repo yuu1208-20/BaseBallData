@@ -8,5 +8,8 @@
 </head>
 <body>
 <h1>BaseBallData</h1>
+<label>ポジションを選択:</label>
+<input type="submit" value="投手">
+<input type="submit" value="野手">
 </body>
 </html>
