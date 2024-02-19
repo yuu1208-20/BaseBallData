@@ -8,12 +8,9 @@
 </head>
 <body>
 <h1>BaseBallFreeAgent</h1>
-<form action="<%=request.getContextPath() %>/team/team-login.jsp">
-	<button>チーム関係者ログイン</button>
-</form>
-<br>
-<form action="<%=request.getContextPath() %>/player/player-login.jsp">
-	<button>選手ログイン</button>
+<h2><選手画面></h2>
+<form action="<%=request.getContextPath() %>/logout" method="post">
+	<button type="submit">ログアウト</button>
 </form>
 </body>
 </html>
